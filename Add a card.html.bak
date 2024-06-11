@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  
+  <title>Add a card</title>
+ </head>
+ <body>
+ <table>
+<form>
+ 
+<tr>
+ <td><label>Cardnumber</label></td>
+<td><input  pattern="[0-9]{16}"title="Card number consists of 16 digits"></input></td>
+<td><input type="submit"></input></td>
+</tr>
+<tr>
+
+ <td><label>Cardholdername</label></td>
+ <td><input type="alphabets"></input></td>
+
+</tr>
+
+<tr>
+<td><label>Validtill</label></td>
+<td><input type="date"></input></td>
+
+
+ </tr>
+
+<tr>
+
+<td><label>CVV></label></td>
+<td><input pattern="[0-9]{3}"title="card number consists of only 3 digits"></input></td>
+<td><input type="submit"></input></td>
+
+  </form>
+  </table>
+ </body>
+</html>
